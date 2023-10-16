@@ -11,11 +11,11 @@ public class CinemaApplicationRun {
 
         ArrayList<Viewer> viewers = new ArrayList<>();
         viewers.addAll(Arrays.asList(
-          new Viewer("1", 10, 100),
-                new Viewer("2", 20, 200),
-                new Viewer("3", 30, 300),
-                new Viewer("4", 40, 400),
-                new Viewer("5", 50, 500)
+          new Viewer("1", 10),
+                new Viewer("2", 20),
+                new Viewer("3", 30),
+                new Viewer("4", 40),
+                new Viewer("5", 50)
         ));
 
         int avgAge = ViewerStatistics.averageAge(viewers);
